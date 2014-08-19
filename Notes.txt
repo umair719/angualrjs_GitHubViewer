@@ -1,0 +1,9 @@
+1. Click on the name or repo and drill into the code of the repo and the users how worked on this repo
+    - Route: /repo/:username/:reponame
+    - Template: repo.html
+    - Controller: RepoController
+To get the details of the repo: 
+    https://api.guthub.com/repos/angular/angular.js
+    
+    https://api.github.com/repos/angular/angular.js/contributors
+    

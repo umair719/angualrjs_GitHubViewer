@@ -1,0 +1,15 @@
+<div>
+  <div class="container-fluid">
+    {{countdown}}
+    <form role="form" name="searchUser" ng-submit="search(username)">
+      <div class="form-group row">
+        <div class="col-md-3">
+          <input type="search" placeholder="Username to find" ng-model="username" required="" class="form-control" />
+        </div>
+        <div class="col-md-3">
+          <button type="submit" value="Search" class="btn btn-primary glyphicon glyphicon-search col-md-4"></button>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
